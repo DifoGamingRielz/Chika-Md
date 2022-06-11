@@ -1264,22 +1264,22 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube Creator',
+                                    displayText: '𝐆𝐝𝐚 𝐲𝐭 𝐛𝐚𝐧𝐡🐤',
                                     url: `${youtube}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: `Rest Api's`,
+                                    displayText: `𝐑𝐄𝐒𝐓 𝐀𝐏𝐈'𝐬🐼`,
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi',
+                                    displayText: '𝐃𝐎𝐍𝐀𝐒𝐈 𝐍𝐆𝐀𝐁😎',
                                     id: 'donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Menu',
+                                    displayText: '𝐌𝐄𝐍𝐔𝐧𝐲𝐚 𝐭𝐨𝐝🎮',
                                     id: 'menu'
                                 }
                             }]
@@ -1298,22 +1298,22 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube Creator',
+                                    displayText: '𝐆𝐝𝐚 𝐲𝐭 𝐛𝐚𝐧𝐡🐤',
                                     url: `${youtube}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: `Rest Api's`,
+                                    displayText: `𝐑𝐄𝐒𝐓 𝐀𝐏𝐈'𝐬🐼`,
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi',
+                                    displayText: '𝐃𝐎𝐍𝐀𝐒𝐈 𝐍𝐆𝐀𝐁😎',
                                     id: 'donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Menu',
+                                    displayText: '𝐌𝐄𝐍𝐔𝐧𝐲𝐚 𝐭𝐨𝐝🎮',
                                     id: 'menu'
                                 }
                             }]
@@ -1776,7 +1776,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `𝐑𝐄𝐒𝐓 𝐀𝐏𝐈'𝐬🐼`,
 						"url": `${myweb}`
 						}
 					}
@@ -1801,7 +1801,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `𝐑𝐄𝐒𝐓 𝐀𝐏𝐈'𝐬🐼`,
 						"url": `${myweb}`
 						}
 					}
@@ -1825,7 +1825,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `𝐑𝐄𝐒𝐓 𝐀𝐏𝐈'𝐬🐼`,
 						"url": `${myweb}`
 						}
 					}
@@ -3088,7 +3088,7 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
+displayText: '𝐆𝐝𝐚 𝐲𝐭 𝐛𝐚𝐧𝐡🐤', 
 url: `${youtube}`
 }
 },
@@ -3106,7 +3106,7 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
+displayText: '𝐆𝐝𝐚 𝐲𝐭 𝐛𝐚𝐧𝐡🐤', 
 url: `${youtube}`
 }
 },
@@ -3123,7 +3123,7 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
+displayText: '𝐆𝐝𝐚 𝐲𝐭 𝐛𝐚𝐧𝐡🐤', 
 url: `${youtube}`
 }
 },
@@ -3401,7 +3401,7 @@ await chika.send5ButImg(from, `` + '' + lang.informationmenu(prefix), `  © ${ow
 break
 case 'mainmenu':
 var riych = await getBuffer(picak+'Main Menu')
-await chika.send5ButImg(from, `` + '' + lang.mainmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
+await chika.send5ButImg(from, `` + '' + lang.mainmenu(prefix), `  © ${ownername}`,riych, [{"urlButton": {"displayText": "𝐆𝐝𝐚 𝐲𝐭 𝐛𝐚𝐧𝐡🐤","url": `${youtube}`}},{"urlButton": {"displayText": `𝐑𝐄𝐒𝐓 𝐀𝐏𝐈'𝐬🐼`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "𝐃𝐎𝐍𝐀𝐒𝐈 𝐍𝐆𝐀𝐁😎","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'command'}}] )
 break
 case 'databasemenu':
 var riych = await getBuffer(picak+'Database Menu')
